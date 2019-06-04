@@ -1,8 +1,9 @@
 package goopenzwave
 
-// #cgo pkg-config: libopenzwave
+// /cgo pkg-config: libopenzwave
 // #cgo CFLAGS: -I/usr/include -I/usr/include/openzwave
 // #cgo CPPFLAGS: -I/usr/include -I/usr/include/openzwave
+// #cgo LDFLAGS: -Lopenzwave
 // #include "gzw_manager.h"
 // #include "gzw_notification.h"
 // #include <stdlib.h>
